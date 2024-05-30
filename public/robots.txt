@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://www.chesspecker.com
+Host: https://www.chesspecker.vercel.app
 
 # Sitemaps
-Sitemap: https://www.chesspecker.com/sitemap.xml
+Sitemap: https://www.chesspecker.vercel.app/sitemap.xml

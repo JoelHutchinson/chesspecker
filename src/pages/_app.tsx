@@ -69,12 +69,12 @@ const CustomApp = ({
 					type: 'website',
 					locale: 'en_US',
 					title: 'Chesspecker',
-					url: 'https://www.chesspecker.com/',
+					url: 'https://www.chesspecker.vercel.app/',
 					site_name: 'Chesspecker',
 					images: [
 						{
-							url: 'https://www.chesspecker.com/images/banner.jpg',
-							secureUrl: 'https://www.chesspecker.com/images/banner.jpg',
+							url: 'https://www.chesspecker.vercel.app/images/banner.jpg',
+							secureUrl: 'https://www.chesspecker.vercel.app/images/banner.jpg',
 							width: 1200,
 							height: 627,
 							alt: 'chesspecker',
@@ -93,7 +93,7 @@ const CustomApp = ({
 			/>
 
 			<Loader isVisible={loading} />
-			<PlausibleProvider domain='chesspecker.com'>
+			<PlausibleProvider domain='chesspecker.vercel.app'>
 				<Component {...pageProps} />
 			</PlausibleProvider>
 		</>,
