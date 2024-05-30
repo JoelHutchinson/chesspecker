@@ -9,9 +9,9 @@ export const serverSchema = z.object({
 	DB_URL: z.string().url(),
 	NODE_ENV: z.enum(['development', 'test', 'production']),
 	LICHESS_CLIENT_ID: z.string(),
-	CHESSCOM_CLIENT_ID: z.string(),
+	//CHESSCOM_CLIENT_ID: z.string(),
 	SECRET_COOKIE_PASSWORD: z.string(),
-	STRIPE_SECRET_KEY: z.string(),
+	//STRIPE_SECRET_KEY: z.string(),
 });
 
 /**
@@ -20,7 +20,7 @@ export const serverSchema = z.object({
  * To expose them to the client, prefix them with `NEXT_PUBLIC_`.
  */
 export const clientSchema = z.object({
-	NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY: z.string(),
+	//NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY: z.string(),
 });
 
 /**
@@ -30,6 +30,6 @@ export const clientSchema = z.object({
  * @type {{ [k in keyof z.infer<typeof clientSchema>]: z.infer<typeof clientSchema>[k] | undefined }}
  */
 export const clientEnv = {
-	NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY:
-		process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,
+	//NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY:
+	//	process.env.NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY,
 };
