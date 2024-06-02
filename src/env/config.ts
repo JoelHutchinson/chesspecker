@@ -19,5 +19,5 @@ export const CHESSCOM_CONFIG = {
 
 export const ORIGIN =
 	env.NODE_ENV === 'production'
-		? 'https://chesspecker.vercel.app'
+		? 'https://tacticspecker.com'
 		: `http://localhost:3000`;

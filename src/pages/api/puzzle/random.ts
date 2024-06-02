@@ -7,7 +7,7 @@ import type {SuccessData, ErrorData} from '@/types/data';
 
 export type PuzzleData = SuccessData<Puzzle> | ErrorData;
 
-const NUMBER_OF_DOCUMENTS = 2_000_000;
+const NUMBER_OF_DOCUMENTS = 646574;
 
 const get_ = async (
 	_request: NextApiRequest,

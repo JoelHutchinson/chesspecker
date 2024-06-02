@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 type Props = {
 	children: React.ReactNode;
-	handleCloseBanner: ()=> void;
+	handleCloseBanner: () => void;
 };
 
 const Banner = ({children, handleCloseBanner}: Props) => {
@@ -25,10 +25,8 @@ const Banner = ({children, handleCloseBanner}: Props) => {
 							</p>
 						</div>
 						<div className='order-3 mt-2 flex-shrink-0 w-full sm:order-2 sm:mt-0 sm:w-auto'>
-							<Link href='/sponsor'>
-								<a
-									className='flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-sky-600 bg-white hover:bg-sky-50'
-								>
+							<Link href='/hooray'>
+								<a className='flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-sm font-medium text-sky-600 bg-white hover:bg-sky-50'>
 									Learn more
 								</a>
 							</Link>
@@ -38,7 +36,7 @@ const Banner = ({children, handleCloseBanner}: Props) => {
 								type='button'
 								className='-mr-1 flex p-2 rounded-md hover:bg-sky-500 focus:outline-none focus:ring-2 focus:ring-white sm:-mr-2'
 								onClick={() => {
-									handleCloseBanner()
+									handleCloseBanner();
 								}}
 							>
 								<span className='sr-only'>Dismiss</span>

@@ -57,7 +57,7 @@ const UserPage = () => {
 						</Link>
 					)}
 
-					<div className='mt-2 md:ml-2'>
+					<div className='mt-2 md:mt-0 md:ml-2'>
 						<Link href='/achievements'>
 							<a>
 								<Button>See all achievements</Button>

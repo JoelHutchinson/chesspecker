@@ -14,7 +14,7 @@ const Document = () => {
 				<link rel='manifest' href='/manifest.json' />
 				<link rel='apple-touch-icon' href='/icon.png' />
 				<meta name='theme-color' content='#fff' />
-				<link rel='canonical' href='https://www.chesspecker.vercel.app/' />
+				<link rel='canonical' href='https://www.tacticspecker.com/' />
 				{/* Favicon */}
 				<link
 					rel='apple-touch-icon'
