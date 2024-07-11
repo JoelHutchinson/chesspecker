@@ -13,11 +13,7 @@ const HoorayPage = () => {
 				<p className='w-11/12 mb-6 text-2xl text-left md:text-2xl max-w-md lg:max-w-3xl'>
 					We are happy to announce that the chesspecker tool has been revived.
 					The creators of Chesspecker shut down the service due to rising server
-					costs. The new team is dedicated to keeping the service alive and
-					improving it. Therefore, we have made the decision to run ads on the
-					website to cover the server costs. This should ensure that the service
-					is self-sufficient regardless of how many users it has, and can be
-					used by everyone for free.
+					costs.
 				</p>
 				<iframe
 					allowFullScreen
